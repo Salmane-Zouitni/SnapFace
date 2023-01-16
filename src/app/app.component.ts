@@ -20,6 +20,7 @@ export class AppComponent implements OnInit {
         'https://cdn.pixabay.com/photo/2015/05/31/16/03/teddy-bear-792273_1280.jpg',
       createdDate: new Date(),
       snaps: 0,
+      location: 'paris',
     };
     this.mySecondSnap = {
       title: 'alikhandroo',
@@ -28,6 +29,7 @@ export class AppComponent implements OnInit {
       imageUrl: 'https://i.ibb.co/VBvdyw9/maxresdefault.jpg',
       createdDate: new Date(),
       snaps: 1,
+      location: 'Mexico',
     };
     this.myLastSnap = {
       title: 'Gujo Saturo',
