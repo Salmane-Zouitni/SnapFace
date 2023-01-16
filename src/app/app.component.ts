@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
         imageUrl:
           'https://cdn.pixabay.com/photo/2015/05/31/16/03/teddy-bear-792273_1280.jpg',
         createdDate: new Date(),
-        snaps: 0,
+        snaps: 100,
         location: 'paris',
       },
       {
@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
           'Manrtiniss is a social media platform for sharing photos and videos.',
         imageUrl: 'https://i.ibb.co/VBvdyw9/maxresdefault.jpg',
         createdDate: new Date(),
-        snaps: 1,
+        snaps: 150,
         location: 'Mexico',
       },
       {
@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
         imageUrl:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Three_Rock_Mountain_Southern_Tor.jpg/2880px-Three_Rock_Mountain_Southern_Tor.jpg',
         createdDate: new Date(),
-        snaps: 2,
+        snaps: 200,
       },
     ];
   }
