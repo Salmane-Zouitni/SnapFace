@@ -2,8 +2,11 @@
   class="face-snap-card"
   [ngClass]="{ snapped: this.snapText == 'Oop! UnSnap' }"
 >
-  <h2>{{ faceSnap.title }}</h2>
-  <p>Mis en ligne le {{ faceSnap.createdDate }}</p>
+  <p>{{ 34.437 | number : "1.0-2" }}</p>
+  <h2>{{ faceSnap.title | titlecase }}</h2>
+  <p>
+    Mis en ligne {{ faceSnap.createdDate | date : " le d MMMM yyyy, á HH:mm" }}
+  </p>
   <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title" />
   <p>{{ faceSnap.description }}</p>
   <p *ngIf="faceSnap.location">photo prise á {{ faceSnap.location }}</p>

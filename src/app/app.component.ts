@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.faceSnaps = [
       {
-        title: 'Salmane',
+        title: 'Salmane zouitni',
         description:
           'Salmane is a social media platform for sharing photos and videos.',
         imageUrl:
